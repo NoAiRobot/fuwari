@@ -7,9 +7,9 @@ import type {
 import { LinkPreset } from './types/config'
 
 export const siteConfig: SiteConfig = {
-  title: 'Fuwari',
-  subtitle: 'Demo Site',
-  lang: 'en',         // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko'
+  title: '智能终端机',
+  subtitle: 'Run',
+  lang: 'zh_CN',         // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko'
   themeColor: {
     hue: 250,         // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
     fixed: false,     // Hide the theme color picker for visitors
@@ -47,32 +47,33 @@ export const navBarConfig: NavBarConfig = {
 }
 
 export const profileConfig: ProfileConfig = {
-  avatar: 'assets/images/demo-avatar.png',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-  name: 'Lorem Ipsum',
-  bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  avatar: 'assets/images/Avatar.png',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+  name: 'Ai_机器人',
+  bio: '我们所过的每个平凡的日常，也许就是连续发生的奇迹。',
+  // Visit https://icones.js.org/ for icon codes
+  // You will need to install the corresponding icon set if it's not already included
+  // `pnpm add @iconify-json/<icon-set-name>`
   links: [
     {
-      name: 'Twitter',
-      icon: 'fa6-brands:twitter',       // Visit https://icones.js.org/ for icon codes
-                                        // You will need to install the corresponding icon set if it's not already included
-                                        // `pnpm add @iconify-json/<icon-set-name>`
-      url: 'https://twitter.com',
+      name: 'Bilibili',
+      icon: 'fa6-brands:bilibili',
+      url: 'https://space.bilibili.com/2652071',
     },
     {
-      name: 'Steam',
-      icon: 'fa6-brands:steam',
-      url: 'https://store.steampowered.com',
+      name: 'VLOOK',
+      icon: 'fa6-brands:markdown',
+      url: 'https://madmaxchow.github.io/VLOOK/index.html',
     },
     {
       name: 'GitHub',
       icon: 'fa6-brands:github',
-      url: 'https://github.com/saicaca/fuwari',
+      url: 'https://github.com/NoAiRobot',
     },
   ],
 }
 
 export const licenseConfig: LicenseConfig = {
   enable: true,
-  name: 'CC BY-NC-SA 4.0',
-  url: 'https://creativecommons.org/licenses/by-nc-sa/4.0/',
+  name: 'GNU自由文档许可证',
+  url: 'https://www.gnu.org/licenses/fdl-1.3.html',
 }

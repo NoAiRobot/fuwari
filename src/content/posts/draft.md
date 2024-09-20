@@ -1,16 +1,17 @@
 ---
-title: Draft Example
-published: 2022-07-01
-tags: [Markdown, Blogging, Demo]
-category: Examples
+title: 这是一篇草稿
+published: 2024-09-05
+tags: [Markdown, 教程]
+category: Fuwari
 draft: true
 ---
 
-# This Article is a Draft
+# 这篇文章是草稿
 
-This article is currently in a draft state and is not published. Therefore, it will not be visible to the general audience. The content is still a work in progress and may require further editing and review.
 
-When the article is ready for publication, you can update the "draft" field to "false" in the Frontmatter:
+这篇文章目前处于草稿状态，尚未发布。因此，它对普通观众不可见。内容仍在进行中，可能需要进一步编辑和审核。
+
+当文章准备发布时，您可以在Frontmatter中将“draft”字段更新为“false”：
 
 ```markdown
 ---
